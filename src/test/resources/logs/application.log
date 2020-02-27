@@ -1,0 +1,18 @@
+27/02/2020 20:58:28 devpinoyLogger Config file loaded !!!
+27/02/2020 20:58:28 devpinoyLogger OR file loaded !!!
+27/02/2020 20:58:30 devpinoyLogger Chrome Launched !!!
+27/02/2020 20:58:33 devpinoyLogger Navigated to : https://twitter.com/
+27/02/2020 20:58:35 devpinoyLogger Cleared cookies
+27/02/2020 20:58:38 devpinoyLogger Clicking on : ClickLogin_XPATH
+27/02/2020 20:58:39 devpinoyLogger Typing in : email_XPATH
+27/02/2020 20:58:39 devpinoyLogger Typing in : password_XPATH
+27/02/2020 20:58:41 devpinoyLogger Clicking on : login_XPATH
+27/02/2020 20:58:45 devpinoyLogger Clicking on : CreateInputTweet_XPATH
+27/02/2020 20:58:45 devpinoyLogger Typing in : CreateInputTweet_XPATH
+27/02/2020 20:58:46 devpinoyLogger Clicking on : Tweet_XPATH
+27/02/2020 20:58:50 devpinoyLogger Clicking on : LikeTweet_XPATH
+27/02/2020 20:58:54 devpinoyLogger Clicking on : ReplyTweet_XPATH
+27/02/2020 20:58:55 devpinoyLogger Typing in : AddAnotherTweet_XPATH
+27/02/2020 20:58:55 devpinoyLogger Clicking on : ReplyTweetMessage_XPATH
+27/02/2020 20:58:57 devpinoyLogger Clicking on : SVGDropdown_XPATH
+27/02/2020 20:59:00 devpinoyLogger Clicking on : DeleteTweet_XPATH

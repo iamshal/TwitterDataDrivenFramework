@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="listeners.CustomListeners" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+		
+		
+			<class name="testcases.LoginTest" />
+			<class name="testcases.CreateTweetTest" />
+
+			<class name="testcases.LikeTweetTest" />
+
+			<class name="testcases.ReplyTweetTest" />
+			<class name="testcases.DeleteTweetTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

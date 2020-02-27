@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="9" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Waited for element]]>
+    </line>
+    <line>
+      <![CDATA[Clear the cookies]]>
+    </line>
+    <line>
+      <![CDATA[Waited for element]]>
+    </line>
+    <line>
+      <![CDATA[Waited for element]]>
+    </line>
+    <line>
+      <![CDATA[Waited for element]]>
+    </line>
+    <line>
+      <![CDATA[Waited for element]]>
+    </line>
+    <line>
+      <![CDATA[Waited for element]]>
+    </line>
+    <line>
+      <![CDATA[Waited for element]]>
+    </line>
+    <line>
+      <![CDATA[Waited for element]]>
+    </line>
+    <line>
+      <![CDATA[Waited for element]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-02-27T12:58:34Z" name="Suite" finished-at="2020-02-27T12:59:10Z" duration-ms="36494">
+    <groups>
+    </groups>
+    <test started-at="2020-02-27T12:58:34Z" name="Test" finished-at="2020-02-27T12:59:10Z" duration-ms="36494">
+      <class name="testcases.CreateTweetTest">
+        <test-method signature="createTweetTest()[pri:0, instance:testcases.CreateTweetTest@6443b128]" started-at="2020-02-27T20:58:44Z" name="createTweetTest" finished-at="2020-02-27T20:58:46Z" duration-ms="1629" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waited for element]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createTweetTest -->
+      </class> <!-- testcases.CreateTweetTest -->
+      <class name="testcases.ReplyTweetTest">
+        <test-method signature="replyTweetTest()[pri:0, instance:testcases.ReplyTweetTest@40021799]" started-at="2020-02-27T20:58:50Z" name="replyTweetTest" finished-at="2020-02-27T20:58:55Z" duration-ms="4848" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waited for element]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- replyTweetTest -->
+      </class> <!-- testcases.ReplyTweetTest -->
+      <class name="testcases.LoginTest">
+        <test-method signature="loginTest(java.util.Hashtable)[pri:0, instance:testcases.LoginTest@3f36b447]" started-at="2020-02-27T20:58:34Z" name="loginTest" data-provider="dp" finished-at="2020-02-27T20:58:44Z" duration-ms="10055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=khushi123, username=shalini80695649}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Waited for element]]>
+            </line>
+            <line>
+              <![CDATA[Clear the cookies]]>
+            </line>
+            <line>
+              <![CDATA[Waited for element]]>
+            </line>
+            <line>
+              <![CDATA[Waited for element]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.LoginTest@3f36b447]" started-at="2020-02-27T20:59:10Z" name="teardown" finished-at="2020-02-27T20:59:11Z" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.LoginTest -->
+      <class name="testcases.DeleteTweetTest">
+        <test-method signature="deleteTweetTest()[pri:0, instance:testcases.DeleteTweetTest@4a1c0752]" started-at="2020-02-27T20:58:55Z" name="deleteTweetTest" finished-at="2020-02-27T20:59:10Z" duration-ms="15288" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waited for element]]>
+            </line>
+            <line>
+              <![CDATA[Waited for element]]>
+            </line>
+            <line>
+              <![CDATA[Waited for element]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteTweetTest -->
+      </class> <!-- testcases.DeleteTweetTest -->
+      <class name="testcases.LikeTweetTest">
+        <test-method signature="likeTweetTest()[pri:0, instance:testcases.LikeTweetTest@5eeedb60]" started-at="2020-02-27T20:58:46Z" name="likeTweetTest" finished-at="2020-02-27T20:58:50Z" duration-ms="4182" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waited for element]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- likeTweetTest -->
+      </class> <!-- testcases.LikeTweetTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

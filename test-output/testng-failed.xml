@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="listeners.CustomListeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="testcases.LikeTweetTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="likeTweetTest"/>
+        </methods>
+      </class> <!-- testcases.LikeTweetTest -->
+      <class name="testcases.LoginTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="loginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+      <class name="testcases.CreateTweetTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="createTweetTest"/>
+        </methods>
+      </class> <!-- testcases.CreateTweetTest -->
+      <class name="testcases.ReplyTweetTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="replyTweetTest"/>
+        </methods>
+      </class> <!-- testcases.ReplyTweetTest -->
+      <class name="testcases.DeleteTweetTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="deleteTweetTest"/>
+        </methods>
+      </class> <!-- testcases.DeleteTweetTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
